@@ -159,17 +159,43 @@ body {
     border-radius: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-       
+    justify-content: space-around;       
  }
+
  .box_itens > div > h1 {
     font-size: 1.2em;
     font-weight: bolder;
  }
+
  #box_itens1 {
     margin: 10px 0px;
-
  }
+
+ .itens1 {   
+    display: flex;
+    justify-content: center;
+    background: #F1F7FF;
+    border-radius: 20px;
+ }
+ .itens2 {   
+    display: flex;
+    justify-content: center;
+    background: #FFF2F8;
+    border-radius: 20px;
+ }
+ .itens3 {   
+    display: flex;
+    justify-content: center;
+    background: #FFF7E3;
+    border-radius: 20px;
+ }
+ .itens4 {   
+    display: flex;
+    justify-content: center;
+    background: #DEFFEE;
+    border-radius: 20px;
+ }
+
  #box_itens3 {
     margin: 10px 0px;
  }
