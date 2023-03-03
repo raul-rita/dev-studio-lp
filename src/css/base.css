@@ -36,8 +36,8 @@ body {
 .começo {
     background-image: url(../../imagens/bg-hero.jpg);
     background-size:contain;
-    height: 500px;
-    width: 100%;
+    height: 600px;
+    /* width: 100%; */
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -50,19 +50,21 @@ body {
     width:30vw;
     flex-wrap: wrap;
     margin: 80px;
+    font-size: 22px;
     
 }
 .começo > div > div > h1{
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bolder;
 }
 
 .botão-contato {
-    height: 35px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
     border-radius: 30px;
     border: none;
     background-color: #2639ED;
+    font-size: 15px;
 }
 .botão-contato > a {
     color: white;
@@ -78,13 +80,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 200px;
-    align-content: space-between;
- 
+    align-content: space-between; 
     padding: 0px 80px    
 }
 .client_itens0 > div > h1 {
-    font-size: 1.7em;
+    font-size: 2em;
     font-weight: bolder;
+}
+.client_itens0 > div > p {
+   font-size: 20px;
 }
 .cliente_itens {
     display: inline-flex;
