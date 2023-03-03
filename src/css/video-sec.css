@@ -1,0 +1,40 @@
+.video-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.video-sec-content {
+    display: flex;
+    justify-content: space-between;
+    height: 436px;
+    background: url(/src/images/bg-video-sec.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.video-sec-content iframe {
+    width: 550px;
+    height: 372px;
+    border-radius: 32px;
+    box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.video-sec-content div {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.video-sec-content div h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.video-sec-content div p {
+    font-size: 16px;
+    color: #565656;
+    line-height: 26px;
+}

@@ -6,56 +6,189 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/css/reset.css">
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/base.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/hero.css">
+    <link rel="stylesheet" href="/src/css/our-client.css">
+    <link rel="stylesheet" href="/src/css/services.css">
+    <link rel="stylesheet" href="/src/css/video-sec.css">
+    <link rel="stylesheet" href="/src/css/newsletter.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
 
-    <title>Landing Page - Studio</title>
+    <title>Dev+ Studio</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <li>Home</li>
-            <li>What We Do</li>
-            <li>Service</li>
-            <li>Project</li>
-            <li>Blog</li>
-            <li>Contact</li>
-        </nav>
+        <div class="container header-content">
+            <p>Dev+ Studio</p>
+
+            <nav>
+                <a>Home</a>
+                <a>What We Do</a>
+                <a>Service</a>
+                <a>Project</a>
+                <a>Blog</a>
+                <a>Contact</a>
+            </nav>
+        </div>
     </header>
-    <div>
-        <p>Dev +Studio</p>
-    </div>
 
-    <section>
-        <div>
+    <section class="hero" id="hero">
+        <div class="container hero-content">
             <h1>A Digital Product Agency</h1>
-            <p>Loading digital agency with solid design and development expertise. We build ready made websites, mobile,
-                applications, and elaborate online business services.</p>
-            <button><a href="#">Contact Now</a></button>
+
+            <p>Loading digital agency with solid design and development<br> 
+                expertise. We build ready made websites, mobile, applications,<br>
+                and elaborate online business services.
+            </p>
+
+            <a href="#" class="btn">Contact Now</a>
         </div>
     </section>
 
-    <section>
-        <h1>Our Client</h1>
-        <p>Several selected clientes, who already believe in our service.</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+    <section class="our-client" id="our-client">
+        <div class="our-client-content">
+            <div class="title-text">
+                <h1>Our Client</h1>
+
+                <p>Several selected clientes, who already <br>
+                    believe in our service.
+                </p>
+            </div>            
+
+            <div class="logos">
+                <img src="./src/images/Vector.svg" alt="logo do google">
+                <img src="./src/images/Vector-1.svg" alt="logo do air bnb">
+                <img src="./src/images/Vector-2.svg" alt="logo do uber eats">
+                <img src="./src/images/Vector-3.svg" alt="logo da amazon">                    
+            </div>                                
+        </div>        
     </section>
-    <section>
-        <h1>How can we help your Business?</h1>
-        <p>We build readymade websites. mobile applications, and elaborate online business services.</p>
-        <div>
-            <p>Business Idea Planning</p>
-            <p>We present you a proposal and discuss nifty-gritty like</p>
+
+    <section class="services">
+        <div class="container services-content">
+            <div class="services-text">
+                <h1>How can we help <br>
+                    your Business?
+                </h1>
+                <p>We build readymade websites, mobile applications, <br>
+                    and elaborate online business services.
+                </p>
+            </div>
+
+            <div class="services-cards">     
+                <ul>
+                    <li class="services-card">
+                        <img src="./src/images/icon-planning.svg" alt="icone de business planning">
+                        <h3>Business Ideia Planning</h3>
+                        <p>We present you a proposal and discuss niffty-gritty like</p>
+                    </li>
+                    <li class="services-card">
+                        <img src="./src/images/icon-dev.svg" alt="icone de business planning">
+                        <h3>Development Website and App</h3>
+                        <p>Communication protocols apart from engagement models</p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="services-card">
+                        <img src="./src/images/icon-wallet.svg" alt="icone de business planning">
+                        <h3>Financial <br> Planning System</h3>
+                        <p>Protocols apart from aengage models, pricing billing</p>
+                    </li>
+                    <li class="services-card">
+                        <img src="./src/images/icon-stats.svg" alt="icone de business planning">
+                        <h3>Market Analysis Project</h3>
+                        <p>Protocols apart from aengage models, pricing billing</p>
+                    </li>
+                </ul>                
+            </div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+
+       
     </section>
+
+    <section class="video-sec">
+        <div class="container video-sec-content">
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+
+            <div>
+                <h1>Great Digital Product<br>
+                    Agency since 2016 
+                </h1>
+
+                <p>Our Business Plan is a written document describing a company's core <br>
+                    business activites, Objectives, and how it plans to achieve its goals. Our<br>
+                    goal is to provide our client high quality Product with modern idea <br>
+                    accordingly their budgets and according thir reuirements.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container newsletter-content">
+            <div class="newsletter-text">
+                <h1>Subscribe Newsletter</h1>
+                <p>I will update good news and promotion service not spam</p>
+            </div>
+
+            <form class="newsletter-form">
+                <input type="text" placeholder="Enter your email address...">
+                <button>Contact Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="social-media">
+                <p>Leading digital agency with solid design<br>
+                    and development expertise. We build <br>
+                    readymade websites, mobile applications, <br>
+                    and elaborate online business services.
+                </p>
+
+                <div>
+                    <img src="/src/images/facebook.svg" alt="logo do facebook">
+                    <img src="/src/images/twitter.svg" alt="logo do twitter">
+                    <img src="/src/images/linkedin.svg" alt="logo do linkedin">
+                </div>
+            </div>
+
+            <nav class="links-nav">
+                <ul>
+                    <h2>What We Do</h2>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">App Design Design</a></li>
+                    <li><a href="#">Social Media Manage</a></li>
+                    <li><a href="#">Market Analysis Project</a></li>
+                </ul>
+
+                <ul>
+                    <h2>Company</h2>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Become Investor</a></li>
+                </ul>
+
+                <ul>
+                    <h2>Support</h2>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Business</a></li>
+                </ul>
+
+                <ul>
+                    <h2>Contact</h2>
+                    <li><a href="#">WhatsApp</a></li>
+                    <li><a href="#">Support 24</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <p class="copyright">Copyright © 2022 Avi Yansah</p>
+    </footer>
 </body>
-
 </html>

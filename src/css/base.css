@@ -8,3 +8,24 @@
 
     --text-font: 'Poppins', sans serif;
 }
+
+html {
+    background-color: var(--primary-color);
+}
+
+p, a, ul, li, div, h1, h2, h3 , h4, h5, h6 {
+    font-family: var(--text-font);
+}
+
+.container {
+    width: 1200px;
+}
+
+.btn {
+    padding: 20px 40px;
+    background-color: var(--secondary-color);
+    width: 150px;
+    text-align: center;
+    color: var(--primary-color);
+    border-radius: 60px;
+}
