@@ -21,7 +21,3 @@ Ferramentas e libs:
 <h2>Versão para Desktop</h2>
  
 <img src="./src/images/tela-desktop.png">
-
-<h2>Versão Mobile</h2>
-
-<img src="./src/images/tela-celular.png">
